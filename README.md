@@ -10,6 +10,9 @@ Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 
 
-<img src="http://placecage.com/400/400">
 
-
+```sh
+git add .
+git commit -m 'stuff'
+git push
+```
