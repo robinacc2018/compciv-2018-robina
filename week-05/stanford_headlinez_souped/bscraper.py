@@ -17,9 +17,10 @@ def fetch_hedz(url=OFFICIAL_URL):
 
     txt = fetch_html(url)
     tags = parse_headline_tags(txt)
-    for i in tags:
-        extract_headline_data(i)
     headlines = []
+    for i in tags:
+        headlines.append(extract_headline_data(i))
+
 
     ###
     # You do the rest!
@@ -50,11 +51,12 @@ def extract_headline_data(tag):
     """
 
     dic_return = {}
-    dic_return['title'] = tag.attrs['href']
-    dic_return["url"] = tag.get_text()
+    dic_return["url"] = tag.attrs['href']
+    dic_return['title'] = tag.get_text()
 
 
-    return tag
+
+    return dic_return
 
 
 def fetch_html(url):
