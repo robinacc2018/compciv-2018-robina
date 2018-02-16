@@ -127,7 +127,7 @@ def wrangle_inmate_data_from_tag(rowtag):
 
     inmate_data['date_offense'] = txdate_to_iso(inmates[9].text.strip())
 
-    inmate_data['age_at_offense'] = int(calc_years_diff(txdate_to_iso(inmates[4].text.strip()), txdate_to_iso(inmates[9].text.strip())))
+    inmate_data['age_at_offense'] = int(calc_years_diff(txdate_to_iso(inmates[4].text.strip()), txdate_to_iso(inmates[9].text.strip()))+1)
 
     inmate_data['years_before_death_row'] = float(calc_years_diff(txdate_to_iso(inmates[9].text.strip()), txdate_to_iso(inmates[7].text.strip())))
 
