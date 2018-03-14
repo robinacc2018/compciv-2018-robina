@@ -1,9 +1,13 @@
 # Final project readme
 
 
-My idea for a report on Senate finance disclosures is to look at the network of senetors by state and compare it to the average household network of the state they represent.  The visualization idea is to show the comparision of senators net worth as a percentage of median house hold network projected onto a map of the United States.
+My idea for a report on Senate finance disclosures is to look at the annual inocome of senators by state and compare it to the average household income of the state they represent.  The visualization idea is to show the comparision of senators annual income as a percentage of median household income network projected onto a map of the United States.
 
 ## References
+
+Median Household Income by State 2016 - https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+
+
 
 How much are California's members of congress worth? - http://www.fresnobee.com/news/politics-government/politics-columns-blogs/political-notebook/article203579219.html
 
