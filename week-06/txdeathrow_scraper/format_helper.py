@@ -131,7 +131,8 @@ def make_absolute_url(href):
     #### fill in yourself
     #### could be a one-liner with proper use of the urljoin() function...
 
-    last = DATA_SRC_URL.rfind('/')
-    address = DATA_SRC_URL[0:last]
-    return address + "/" + href
+    # last = DATA_SRC_URL.rfind('/')
+    # address = DATA_SRC_URL[0:last]
+    # return address + "/" + href
+    return urljoin(DATA_SRC_URL, href)
 
